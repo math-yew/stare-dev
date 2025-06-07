@@ -4,6 +4,7 @@ import CentralSquare from './CentralSquare';
 import Spinner from './illusions/Spinner';
 import BouncyBallroom from './illusions/BouncyBallroom';
 import CartoonMaker from './illusions/CartoonMaker';
+import MullerLyer from './illusions/MullerLyer';
 // End of Imports
 
 interface Props {
@@ -16,6 +17,7 @@ export default function SquareView(props: Props) {
       <div className={styles.sideSquares}>
         <SideSquare link="/tarzan" title="Tarzan Illusion" imageName="thumbnails/tarzan thumbnail.jpg"/>
         <SideSquare link="/bouncyballroom" title="Bouncy Ballroom" imageName="thumbnails/bouncy ballroom thumbnail.jpg"/>
+        <SideSquare link="/mullerlyer" title="Muller Lyer" imageName="thumbnails/muller lyer thumbnail.jpg"/>
         // End of side squares
       </div>
 

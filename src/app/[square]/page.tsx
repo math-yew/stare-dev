@@ -14,6 +14,7 @@ export async function generateStaticParams(): Promise<SquareParams []> {
     'bouncyballroom',
     'purplejiggle',
     'cartoonmaker',
+    'mullerlyer', 
     // End of illusion slugs
     ];
   return illusions.map((page)=>( {square: page} ));

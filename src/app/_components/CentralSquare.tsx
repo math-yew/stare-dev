@@ -7,6 +7,7 @@ import PurpleJiggle from './illusions/PurpleJiggle';
 import Spinner from './illusions/Spinner';
 import BouncyBallroom from './illusions/BouncyBallroom';
 import CartoonMaker from './illusions/CartoonMaker';
+import MullerLyer from './illusions/MullerLyer.tsx';
 // End of Imports
 
 interface Props {
@@ -26,6 +27,8 @@ export default function CentralSquare(props: Props) {
     content = <BouncyBallroom />
   if(props.slug?.toLowerCase() == "cartoonmaker") 
     content = <CartoonMaker />
+  if(props.slug?.toLowerCase() == "mullerlyer") 
+    content = <MullerLyer />
   // End of content section
   return (
     <div>
