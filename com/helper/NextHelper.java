@@ -126,7 +126,7 @@ public class NextHelper extends JFrame implements ActionListener {
         // Check if SideSquare already exists
         if (!content.contains("<SideSquare link=\"/" + lowerCaseName + "\"")) {
             // Add SideSquare component
-            String sideSquareSection = "// End of side squares";
+            String sideSquareSection = "{/*  End of side squares */}";
             String newSideSquare = "<SideSquare link=\"/" + lowerCaseName + "\" title=\"" + componentName + "\" imageName=\"thumbnails/" + lowerCaseName + " thumbnail.jpg\"/>\n        " + sideSquareSection;
             content = content.replace(sideSquareSection, newSideSquare);
         }
