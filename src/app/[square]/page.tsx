@@ -18,6 +18,11 @@ export async function generateStaticParams(): Promise<SquareParams []> {
     'asciiart', 
     'aroundthepole', 
     'doublearm', 
+    'invertedcolor', 
+    'spinningspirals', 
+    'trippydraw', 
+    'gradientpattern', 
+    'stripeanimator', 
     // End of illusion slugs
     ];
   return illusions.map((page)=>( {square: page} ));
